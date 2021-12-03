@@ -6,7 +6,7 @@ from ctc_executioner.action_state import ActionState
 from ctc_executioner.order import Order
 from ctc_executioner.order_type import OrderType
 from ctc_executioner.order_side import OrderSide
-import gym_ctc_executioner.envs.execution_env as execution_env
+import execution_env as execution_env
 #logging.basicConfig(level=logging.INFO)
 
 class MarketMakerEnv(execution_env.ExecutionEnv):
